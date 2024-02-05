@@ -1,0 +1,200 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins,wght@1,100&family=Prompt:wght@100;200&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: poppins, Arial, Helvetica, sans-serif;
+ }
+
+ :root {
+     /* background-color */
+     --primary-color: black;
+     --secondary-color:black;
+     --bg-white: #fff;
+     --bg-light: #fafaff;
+     --bg-black: black;
+     --bg-gray: gray;
+     --gradient: linear-gradient(to right, rgb(68 181 141)0%, #854fee 100%), radial-gradient(circle at top left, rgb(68 181 141, ), #854fee);
+
+     /* text color */
+     --primary-text: black;
+     --secondary-text: #854fee;
+     --text-white: #fff;
+     --text-black: black;
+     --text-gray: gray;
+
+     /*font family*/
+
+     --primary-font: 'arial', sans-serif;
+
+ }
+
+ body {
+     font-family: var(--secondary-font);
+     width: 100%;
+
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ ::-webkit-scrollbar {
+     width: 0.25rem;
+ }
+
+ ::-webkit-scrollbar-track {
+     background: var(--bg-gray);
+ }
+
+ ::-webkit-scrollbar-thumb {
+     background: var(--primary-color);
+ }
+
+ section {
+     padding: .5rem;
+ }
+
+ .main-btn {
+     display: inline-block;
+     font-family: var(--primary-font);
+     font-weight: 500;
+     font-size: .87rem;
+     text-align: center;
+     cursor: pointer;
+     text-transform: uppercase;
+     border-radius: .3125rem;
+     box-shadow: 0 .625rem 1.87rem black;
+     border: double .125rem transparent;
+     padding: 0 2.625rem;
+     transition: all .3s ease-in-out;
+     --webkit-transition: all .3s ease-in-out;
+ }
+
+ .primary-btn {
+     color: var(--text-white);
+ }
+
+ .primary-btn:hover {
+     border-color: var(--secondary-color);
+     background: var(--bg-white);
+     color: var(--secondary-text);
+     box-shadow: var(--secondary-text);
+     box-shadow: none;
+ }
+
+ .secondary-btn {
+     background-image: var(--bg-white);
+     color: var(--secondary-text);
+     border-color: var(--secondary-color);
+ }
+
+ .secondary-btn:hover {
+     background: var(--gradient);
+     color: var(--text-white);
+     box-shadow: none;
+ }
+
+ h1 {
+     font-size: 4.375rem;
+     line-height: 3.75rem;
+     font-weight: 700;
+     color: var(--text-black);
+     margin-bottom: 1.25rem;
+     font-family: var(--primary-font);
+ }
+
+ h2 {
+     font-size: 2.5rem;
+     line-height: 3.4375rem;
+     font-weight: 500;
+     color: var(--text-black);
+     margin-bottom: 1.5625rem;
+     font-family: var(--primary-font);
+ }
+
+ h3 {
+     font-size: 2.25rem;
+     line-height: 3.125rem;
+     font-weight: 700;
+     color: var(--text-black);
+     margin-bottom: 0.9375rem;
+     font-family: var(--primary-font);
+     text-transform: uppercase;
+ }
+
+ h5 {
+     font-size: 1.5rem;
+     font-weight: 500;
+     color: var(--text-black);
+     margin-bottom: 2.1875rem;
+
+ }
+
+ p {
+     color: var(--text-gray);
+     font-size: 0.9375rem;
+     line-height: 1.625rem;
+     font-weight: 400;
+ }
+
+ .header_wrapper .navbar {
+     padding: 0.9375rem 0;
+     -o-transition: all .2s linear;
+     -webkit-transition: all .2s linear;
+     transition: all .2s linear;
+ }
+
+ .header_wrapper .navbar-brand img {
+     max-width: 3rem;
+     height: auto;
+ }
+
+ .header_wrapper .navbar-toggler:focus {
+     box-shadow: none;
+ }
+
+ .header_wrapper .nav-item {
+     margin: .625rem;
+ }
+
+ .header_wrapper .nav-item .nav-link {
+     font-family: var(--primary-font);
+     font-size: 0.9275rem;
+     font-weight: bold;
+     border-radius: 5px;
+     color: black;
+     display: inline-block;
+     transition: all 0.5s ease;
+ }
+
+ .header_wrapper .nav-item .nav-link.active,
+ .header_wrapper .nav-item a:hover {
+     color: var(--primary-text);
+     background-color: var(--primary-text);
+     color: white;
+ }
+
+ .header_scrolled {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     background-color: var(--bg-white);
+     --webkit-box-shadow: 0 0.25rem 0.375rem rgba(12, 0, 46, 0.5);
+     box-shadow: 0 0.25rem 0.375rem rgba(12, 0, 46, 0.5);
+ }
+
+ /* banner */
+ #home {
+     background-color: white;
+ }
+
+ #home .banner-content {
+     vertical-align: middle;
+     align-self: center;
+ }
+
+.main-btn{
+    
+}
